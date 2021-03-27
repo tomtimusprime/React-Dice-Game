@@ -1,11 +1,12 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import './Die.css'
 
 class Die extends Component {
     render() {
-        return(
-            <i className="fas fa-dice-one" />
+        return (
+            <i className={`Die fas fa-dice-${this.props.face}`}></i>
         )
     }
 }
 
-export default Die
+export default Die;
