@@ -1,14 +1,23 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import Die from "./Die";
 
 class RollDie extends Component {
     constructor(props) {
         super(props);
         this.state = {
-
+            die1: "one",
+            die2: "one"
         }
 
     }
     render() {
-        return;
+        return (
+            <div>
+                <Die face={this.state.die1} />
+                <Die face={this.state.die2} />
+            </div>
+        )
     }
 }
+
+export default RollDie;
