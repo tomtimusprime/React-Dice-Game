@@ -42,3 +42,5 @@ class RollDie extends Component {
 }
 
 export default RollDie;
+
+//Completed this component
