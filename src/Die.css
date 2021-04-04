@@ -9,6 +9,8 @@
     animation-duration: 1s;
 }
 
+/* The following keygrame creates the animation of the dice.*/
+
 @keyframes wobble {
     from {
         transform: translate3d(0,0,0);
